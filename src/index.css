@@ -1,0 +1,29 @@
+:root {
+  color-scheme: light dark;
+}
+
+html, body, #root {
+  height: 100%;
+}
+
+body {
+  margin: 0;
+  display: grid;
+  place-items: start center;
+  background: Canvas;
+  color: CanvasText;
+}
+
+button {
+  padding: 0.6rem 1rem;
+  border-radius: 0.5rem;
+  border: 1px solid #d0d7de33;
+  background: #0d6efd;
+  color: white;
+  font-weight: 600;
+  cursor: pointer;
+}
+
+button:hover {
+  filter: brightness(1.05);
+}
